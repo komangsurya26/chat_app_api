@@ -5,7 +5,7 @@ const { sequelize } = require("./models");
 
 const io = new Server(server, {
     cors: {
-        origin: "http://34.101.224.73",
+        origin: "http://34.124.254.220/",
         methods: ["GET", "POST"],
     },
 });
